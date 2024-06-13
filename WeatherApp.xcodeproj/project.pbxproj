@@ -14,6 +14,7 @@
 		F78EBE022C1B1C8900ACEADA /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EBE012C1B1C8900ACEADA /* WeatherAppTests.swift */; };
 		F78EBE0C2C1B1C8900ACEADA /* WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EBE0B2C1B1C8900ACEADA /* WeatherAppUITests.swift */; };
 		F78EBE0E2C1B1C8900ACEADA /* WeatherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EBE0D2C1B1C8900ACEADA /* WeatherAppUITestsLaunchTests.swift */; };
+		F78EBE1B2C1B230C00ACEADA /* DayWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EBE1A2C1B230C00ACEADA /* DayWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F78EBE072C1B1C8900ACEADA /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78EBE0B2C1B1C8900ACEADA /* WeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITests.swift; sourceTree = "<group>"; };
 		F78EBE0D2C1B1C8900ACEADA /* WeatherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F78EBE1A2C1B230C00ACEADA /* DayWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				F78EBDF22C1B1C8600ACEADA /* ContentView.swift */,
 				F78EBDF42C1B1C8800ACEADA /* Assets.xcassets */,
 				F78EBDF62C1B1C8800ACEADA /* Preview Content */,
+				F78EBE1A2C1B230C00ACEADA /* DayWeather.swift */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F78EBDF32C1B1C8600ACEADA /* ContentView.swift in Sources */,
+				F78EBE1B2C1B230C00ACEADA /* DayWeather.swift in Sources */,
 				F78EBDF12C1B1C8600ACEADA /* WeatherAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
